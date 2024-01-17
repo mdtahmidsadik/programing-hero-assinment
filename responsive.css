@@ -1,0 +1,45 @@
+@media screen and (max-width:600px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .container_header ul {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .banner_bg {
+        padding: 30px 15px;
+    }
+
+    .banner_text h1 {
+        font-size: 30px;
+    }
+
+    .banner_form form input,
+    .banner_form form select,
+    .banner_form form button{
+        width: 100%;
+
+    }
+    .container_newsletter,
+    .container_place,
+    .container_tour{
+        flex-direction: column;
+    }
+    .container_tour .sobi {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .grid_item_container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);    
+    }
+    .grid_item{
+        grid-column: 1 / span 1;
+    }
+}
